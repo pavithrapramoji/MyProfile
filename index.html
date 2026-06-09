@@ -12,27 +12,59 @@
       <div>
         <p class="eyebrow">Portfolio</p>
         <h1>Pavithra P</h1>
-        <p class="intro">B-Tech Computer Science Student</p>
+        <p class="intro">BTech student in Computer Science and Engineering<br>at TocH Institute of Science and Technology, Ernakulam.</p>
+        <nav class="header-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#interests">Interests</a>
+          <a href="#career-objective">Career Objective</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
-      <a class="button button-primary" href="#contact">Contact</a>
+      <div class="header-actions">
+        <figure class="profile-card">
+          <img src="/PVPRO.jpeg" alt="Pavithra P profile photo" class="profile-photo" />
+        </figure>
+      </div>
     </div>
   </header>
 
   <main class="container">
-    <section class="hero-card">
+    <section id="about" class="hero-card">
       <div>
         <h2>About Me</h2>
-        <p>A curious student who is passionate about data analytics, AI and technology. Dedicated to learning, researching and solving problems with creative code and analysis.</p>
+        <div class="about-box">
+          <p><strong>Pavithra P</strong> is a B.Tech Computer Science student with a strong passion for Artificial Intelligence, Data Science, and emerging technologies. She is enthusiastic about leveraging data-driven insights and intelligent systems to solve real-world challenges. With a keen interest in programming, machine learning, and analytics, she continuously seeks opportunities to expand her knowledge and practical skills. Dedicated, curious, and growth-oriented, she aims to contribute to innovative technological advancements while building a successful career in the field of computing and AI.</p>
+        </div>
       </div>
     </section>
 
     <section id="skills" class="section-card">
       <h2>Skills</h2>
-      <div class="skills-grid">
-        <span>Python</span>
-        <span>SQL</span>
-        <span>C</span>
-        <span>HTML</span>
+      <div class="skills-groups">
+        <div class="skills-group">
+          <h3>💻 Technical Skills</h3>
+          <div class="skills-grid">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>C</span>
+            <span>HTML</span>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3>🤝 Soft Skills</h3>
+          <div class="skills-grid">
+            <span>Problem Solving</span>
+            <span>Teamwork & Collaboration</span>
+            <span>Adaptability</span>
+            <span>Critical Thinking</span>
+            <span>Leadership</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -40,11 +72,17 @@
       <h2>Projects</h2>
       <div class="project-list">
         <article class="project-item">
-          <h3>Career Recommendation System</h3>
+          <div class="project-card-header">
+            <span class="project-icon">🧠</span>
+            <h3>Career Recommendation System</h3>
+          </div>
           <p>A project focused on guiding students toward suitable career paths using data-driven recommendations and personalization.</p>
         </article>
         <article class="project-item">
-          <h3>Qraze: Scan and Mark</h3>
+          <div class="project-card-header">
+            <span class="project-icon">📲</span>
+            <h3>Qraze: Scan and Mark</h3>
+          </div>
           <p>An innovative idea for QR-based scanning and marking that streamlines attendance, access, or verification workflows.</p>
         </article>
       </div>
@@ -54,29 +92,78 @@
       <h2>Education</h2>
       <div class="education-list">
         <div class="education-item">
-          <h3>TocH Institute of Science and Technology</h3>
-          <p>B-Tech in Computer Science</p>
+          <div class="education-card-header">
+            <span class="education-icon">🎓</span>
+            <h3>TIST (TocH Institute of Science and Technology)</h3>
+          </div>
+          <p>B.Tech in Computer Science and Engineering under KTU</p>
           <p>Currently enrolled</p>
         </div>
         <div class="education-item">
-          <h3>Bhavan's Newsprint Vidyalaya, Velloor</h3>
-          <p>10th: First Class pass</p>
-          <p>12th: Distinction pass</p>
+          <div class="education-card-header">
+            <span class="education-icon">🏫</span>
+            <h3>BNV, Velloor (Bhavan's Newsprint Vidyalaya)</h3>
+          </div>
+          <p>10th Graduate with 89% in 2022-23 under CBSE Board</p>
+          <p>12th Graduate in Computer Maths branch with 95% in 2024-25 under CBSE Board</p>
         </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section-card">
+      <h2>Certifications</h2>
+      <ul class="certifications-list">
+        <li>Digital Edge 101</li>
+        <li>Data Science with AI</li>
+        <li>Agentic AI</li>
+        <li>Clarity in Chaos</li>
+      </ul>
+    </section>
+
+    <section id="achievements" class="section-card">
+      <h2>Achievements</h2>
+      <ul class="achievements-list">
+        <li><span class="ach-badge achievement-1">🏆</span>TIST Scholarship</li>
+        <li><span class="ach-badge achievement-2">🎓</span>Computer Science Topper</li>
+        <li><span class="ach-badge achievement-3">👗</span>School Headgirl Candidate</li>
+        <li><span class="ach-badge achievement-4">🎖️</span>House Captain</li>
+        <li><span class="ach-badge achievement-5">💃</span>Best Outgoing Dancer</li>
+        <li><span class="ach-badge achievement-6">🏀</span>Promising Basketball Player</li>
+      </ul>
+    </section>
+
+    <section id="interests" class="section-card">
+      <h2>Interests</h2>
+      <ul class="interests-list">
+        <li>AI</li>
+        <li>Data Science</li>
+        <li>Sports</li>
+        <li>Arts</li>
+        <li>Cybersecurity</li>
+        <li>Research</li>
+      </ul>
+    </section>
+
+    <section id="career-objective" class="section-card">
+      <h2>Career Objective</h2>
+      <div class="objective-box">
+        <p>To build a successful career in the field of Artificial Intelligence and Data Science by applying my technical knowledge, problem-solving skills, and passion for innovation. As a Computer Science student, I aim to continuously learn emerging technologies, contribute to impactful projects, and develop intelligent solutions that address real-world challenges while growing as a technology professional.</p>
       </div>
     </section>
 
     <section id="contact" class="section-card contact-card">
       <h2>Contact</h2>
-      <p>If you'd like to connect or see more projects, feel free to reach out via email.</p>
+      <p>If you'd like to connect or see more projects, feel free to reach out via email or GitHub.</p>
       <div class="contact-meta">
         <span>Email: <a href="mailto:pavipramoji@gmail.com">pavipramoji@gmail.com</a></span>
+        <span>Git: <a href="https://github.com/pavithrapramoji" target="_blank" rel="noopener noreferrer">pavithrapramoji</a></span>
+        <span>LinkedIn: <a href="https://www.linkedin.com/in/pavithra-p-26778637a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">pavithra-p-26778637a</a></span>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container footer-inner">
       <p>© 2026 Pavithra P. Designed for a clean, modern showcase.</p>
     </div>
   </footer>
